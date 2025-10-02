@@ -64,8 +64,6 @@ export default function PanelToolBar() {
 
       <NextMoveButton />
 
-      <GoToLastPositionButton />
-
       <Tooltip title="Copy pgn">
         <Grid>
           <IconButton
@@ -81,6 +79,8 @@ export default function PanelToolBar() {
       </Tooltip>
 
       <SaveButton />
+
+      <GoToLastPositionButton />
     </Grid>
   );
 }

@@ -20,3 +20,6 @@ tsconfig.tsbuildinfo
 .cdk.staging
 cdk.out
 cdk.context.json
+
+#vscode
+.vscode/
